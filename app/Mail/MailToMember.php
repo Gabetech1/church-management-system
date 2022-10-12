@@ -37,7 +37,7 @@ class MailToMember extends Mailable
      */
     public function build()
     {
-        return $this->from('mailer@cms.hoffenheimtechnologies.tech', ucwords($this->name))
+        return $this->from('mailer@gabeshub.com', ucwords($this->name))
                     ->subject($this->subject)
                     ->with([
                         'message' => $this->message,

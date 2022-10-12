@@ -37,7 +37,7 @@ class MailMember extends Mailable
      */
     public function build()
     {
-        return $this->from('noreply@cms.hoffenheimtechnologies.tech')
+        return $this->from('noreply@gabeshub.com')
                     ->subject($this->request->subject)
                     ->view('mails.member');
     }
