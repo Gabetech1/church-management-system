@@ -93,11 +93,11 @@
             <div class="panel">
             <div class="content">
                 <div class="title m-b-md panel-heading">
-                    <b>ADBIN CMS</b>
+                    <b>CHURCH MANAGEMENT SYSTEM</b>
                 </div>
-                <b><i>Binary made church easier</i></b>
+                <b><i>PCG GRACE CONGREGATION</i></b>
                 <div class="panel-footer">
-                <b><h3 class="text-primary font-weight-bold">A Product Of <a href="http://myckhel.adbin.com.ng"> {{env('APP_NAME')}}</a></h3></b>
+                <b><h3 class="text-secondary font-weight-bold">Developed By <a href="http://gabeshub.com"> GABE</a></h3></b>
               </div>
               </div>
               <div class="panel-footer">

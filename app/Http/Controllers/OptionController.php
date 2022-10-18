@@ -95,6 +95,7 @@ class OptionController extends Controller
     public function collectionTypeGet(Request $request){
       $branch_id = Auth::user()->id;
       $types = \App\CollectionsType::all();
+    //  dd(DataTables::of($types)->make(true));
       return DataTables::of($types)->make(true);
     }
 
